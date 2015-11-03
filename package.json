@@ -1,0 +1,27 @@
+{
+  "name": "angular2-musicplayer",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"gulp typescript && http-server"
+  },
+  "keywords": [
+    "Angular2",
+    "TypeScript"
+  ],
+  "author": "Ravi",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.9.0",
+    "typescript": "^1.6.2"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.37",
+    "systemjs": "^0.18.17",
+    "traceur": "0.0.91"
+  }
+}

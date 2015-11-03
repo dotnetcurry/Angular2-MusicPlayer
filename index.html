@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+	<style>
+		.music-player-control{
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		A simple demo using Angular 2 and TypeScript
+	</h1>
+	<music-player-host></music-player-host>
+	
+  <script src="\node_modules\traceur\bin\traceur-runtime.js"></script>
+  <script src="\node_modules\systemjs\dist\system.src.js"></script>
+  <script>
+    System.config({
+      defaultJSExtensions: true
+    });
+  </script>
+  <script src="\node_modules\angular2\bundles\angular2.dev.js"></script>
+  <script>
+    System.import('/js/bootstrap');
+  </script>
+</body>
+</html>
